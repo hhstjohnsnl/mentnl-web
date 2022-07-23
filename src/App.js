@@ -12,8 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <h2>MentNL</h2>
+          <a href='http://sharmaharsh.me/ment-nl'><div className="Nav-Logo">
+          <img  src={require('./images/logo_beta.svg')} alt="MENT-NL"/>
+          </div></a>
         </div>
         <p className="App-intro">
         </p>
