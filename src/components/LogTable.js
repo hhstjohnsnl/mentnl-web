@@ -49,7 +49,7 @@ const defaultData = []
 
 function LogTable ({
   data = defaultData,
-  title = 'GitHub commits'
+  title = 'GitHub activity'
 }: {
   data: mixed[],
   title: string

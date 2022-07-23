@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import Table from './Table'
 import LogTable from './components/LogTable'
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import data from './data.json'
 
