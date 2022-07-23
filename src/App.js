@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import LogTable from './components/LogTable'
 import logo from './logo.svg';
 import './App.css';
+import data from './data.json'
+
+console.log(data)
 
 class App extends Component {
   render() {
@@ -14,7 +17,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
         </p>
-	<LogTable />
+      <LogTable data={data} />
       </div>
     );
   }

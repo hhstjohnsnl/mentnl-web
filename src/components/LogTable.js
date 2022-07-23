@@ -60,15 +60,15 @@ function LogTable ({
         icons={tableIcons}
         columns={[
           {
-            title: 'Severity',
-            field: 'level',
+            title: 'Username',
+            field: 'id',
             width: 200
           },
-          { title: 'Timestamp', field: 'timestamp' },
-          { title: 'Source', field: 'source' },
+          { title: 'Name', field: 'name' },
+          { title: 'Commits', field: 'total_commits' },
           {
-            title: 'Message',
-            field: 'message'
+            title: 'Repos',
+            field: 'total_repos'
           }
         ]}
         data={data}
