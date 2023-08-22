@@ -70,10 +70,14 @@ function LogTable ({
 	    }
           },
           { title: 'Name', field: 'name' },
-          { title: 'Commits', field: 'total_commits' },
+          {
+	    title: 'Commits',
+	    field: 'total_commits',
+   	    defaultSort: 'desc',
+	  },
           {
             title: 'Repos',
-            field: 'total_repos'
+            field: 'total_repos',
           }
         ]}
         data={data}
