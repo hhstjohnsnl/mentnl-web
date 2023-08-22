@@ -62,7 +62,12 @@ function LogTable ({
           {
             title: 'Username',
             field: 'id',
-            width: 200
+            width: 200,
+	    render: rowData => {
+	      const href = `https://www.github.com/${rowData.id}`
+
+	      return(<a href={href} target="_blank">{rowData.id}</a>)
+	    }
           },
           { title: 'Name', field: 'name' },
           { title: 'Commits', field: 'total_commits' },
